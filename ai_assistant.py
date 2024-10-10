@@ -8,9 +8,9 @@ ssl._create_default_https_context = ssl._create_unverified_context
 
 class AI_Assistant:
     def __init__(self) -> None:
-        aai.settings.api_key = "1e10bb774da4463e868f0dea00c252c2"
+        aai.settings.api_key = "" #removed for github
         self.client = ElevenLabs(
-            api_key = "sk_73a703e1a8e369277e9090b7d07ea9dbb57a345a977366b4"
+            api_key = "" #removed for github
         )
 
         self.transcriber = None
